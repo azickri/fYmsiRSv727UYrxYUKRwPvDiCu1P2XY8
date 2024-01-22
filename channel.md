@@ -1,4 +1,4 @@
-#### API Channel
+### API Channel
 
 Channel Type
 
