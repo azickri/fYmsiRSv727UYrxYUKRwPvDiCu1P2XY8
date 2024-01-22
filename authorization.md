@@ -4,6 +4,8 @@
 - Secret Key    : secret-key
 - Authorization : Base64(appId_secretKey)
 
+<br>
+
 **Example Generate Authorization (NodeJS)**
 
 ```
