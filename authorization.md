@@ -44,3 +44,25 @@ axios.post(
 })
 
 ```
+
+<br>
+
+**Example Response Error**
+
+Response Error:
+
+```
+{
+  "statusCode": Number,
+  "message": String,
+  "originalMessage": String
+}
+```
+
+**Detail Response Error**
+
+| Field | Description | Example |
+| ----- | ----------- | ------- |
+| statusCode | code of error | 403
+| message | translated message of error | Autentikasi tidak sah, silahkan login
+| originalMessage | original of message error | Unauthorized
