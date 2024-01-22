@@ -14,7 +14,7 @@ Channel Type
 ##### POST - Add Channel
 
 - Method : `POST`
-- Endpoint : `https://api.website.com/public/channel`
+- Endpoint : `https://api.socialchat.id/public/channel`
 
 **Request Body:**
 
