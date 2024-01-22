@@ -169,6 +169,8 @@ Response:
 | ----- | ----------- | -------- | ------- |
 | id | id of channel | true | 65569e0d670f764888100b48 |
 
+<br>
+
 **Response Body**
 
 ```
