@@ -1,12 +1,12 @@
 ### Authorization
 
-- App ID        : app-id
-- Secret Key    : secret-key
+- App ID : app-id
+- Secret Key : secret-key
 - Authorization : Base64(appId_secretKey)
 
 <br>
 
-**Example Generate Authorization (NodeJS)**
+**Contoh Mendapatkan Header Otorisasi (NodeJS)**
 
 ```
 function generateHeaderAuthorization(appId, secretKey) {
@@ -16,7 +16,7 @@ function generateHeaderAuthorization(appId, secretKey) {
 
 <br>
 
-**Example Request with Axios**
+**Contoh Request dengan Axios**
 
 ```
 const appId = "appId"
@@ -47,7 +47,7 @@ axios.post(
 
 <br>
 
-**Example Response Error**
+**Contoh Response Error**
 
 Response Error:
 
@@ -61,8 +61,8 @@ Response Error:
 
 **Detail Response Error**
 
-| Field | Description | Example |
-| ----- | ----------- | ------- |
-| statusCode | code of error | 403
-| message | translated message of error | Autentikasi tidak sah, silahkan login
-| originalMessage | original of message error | Unauthorized
+| KOlom           | Deskripsi                               | Contoh                                |
+| --------------- | --------------------------------------- | ------------------------------------- |
+| statusCode      | http status dari error                  | 403                                   |
+| message         | terjemahan dari pesan original          | Autentikasi tidak sah, silahkan login |
+| originalMessage | pesan original, biasanya bahasa inggris | Unauthorized                          |
