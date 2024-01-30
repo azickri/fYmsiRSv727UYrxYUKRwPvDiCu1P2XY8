@@ -6,7 +6,7 @@
 
 <br>
 
-**Example Generate Authorization (NodeJS)**
+**Contoh Pembuatan Otorisasi (NodeJS)**
 
 ```
 function generateHeaderAuthorization(appId, secretKey) {
@@ -16,7 +16,7 @@ function generateHeaderAuthorization(appId, secretKey) {
 
 <br>
 
-**Exammple with Package Axios**
+**Contoh dengan Axios**
 
 ```
 const appId = "appId"
@@ -45,7 +45,7 @@ axios.post(
 
 ---
 
-**Example Response Success**
+**Contoh Response Berhasil**
 
 ```
 {
@@ -55,7 +55,7 @@ axios.post(
 }
 ```
 
-**Example Response Error**
+**Contoh Response Error**
 
 ```
 {
