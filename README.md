@@ -2,6 +2,7 @@
 
 #### List Konten
 
+- [Authorization](https://github.com/azickri/fYmsiRSv727UYrxYUKRwPvDiCu1P2XY8/blob/main/authorization.md)
 - [Data Webhook](https://github.com/azickri/fYmsiRSv727UYrxYUKRwPvDiCu1P2XY8/blob/main/webhook.md)
 - [Connect WhatsApp](https://github.com/azickri/fYmsiRSv727UYrxYUKRwPvDiCu1P2XY8/blob/main/connect-whatsapp.md)
 - [Connect Telegram](https://github.com/azickri/fYmsiRSv727UYrxYUKRwPvDiCu1P2XY8/blob/main/connect-telegram.md)
