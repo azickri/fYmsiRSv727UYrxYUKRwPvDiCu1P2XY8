@@ -22,7 +22,7 @@ function generateHeaderAuthorization(appId, secretKey) {
 const appId = "appId"
 const secretKey = "secretKey"
 const authorization = generateHeaderAuthorization(appId, secretKey)
-const baseUrl = "https://bucket.manypage.id/chat/public"
+const baseUrl = "https://bucket.manypage.id/chat/partner"
 
 const formData = FormData()
 formData.append('file', file)
