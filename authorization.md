@@ -34,7 +34,7 @@ axios.post(
   },
   {
     headers: {
-      "authorization": authorization
+      "authorization": `Bearer ${authorization}`
     }
   }
 ).then((response) => {
