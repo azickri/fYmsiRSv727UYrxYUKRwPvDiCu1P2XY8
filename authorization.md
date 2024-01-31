@@ -22,7 +22,7 @@ function generateHeaderAuthorization(appId, secretKey) {
 const appId = "appId"
 const secretKey = "secretKey"
 const authorization = generateHeaderAuthorization(appId, secretKey)
-const baseUrl = "https://api.socialchat.id/public/channel"
+const baseUrl = "https://api.socialchat.id/partner/channel"
 
 axios.post(
   baseUrl,
