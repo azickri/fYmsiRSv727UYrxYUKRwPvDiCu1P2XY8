@@ -22,15 +22,14 @@ function generateHeaderAuthorization(appId, secretKey) {
 const appId = "appId"
 const secretKey = "secretKey"
 const authorization = generateHeaderAuthorization(appId, secretKey)
-const baseUrl = "https://api.socialchat.id/partner/channel"
+const baseUrl = "https://api.socialchat.id/partner/channel/webchat"
 
 axios.post(
   baseUrl,
   {
+    "isActivePreChat": false,
     "name": "Socialchat",
-    "phone": "081234567890",
-    "type": "webchat",
-    "accessToken": ""
+    "websiteUrl": "https://socialchat.id"
   },
   {
     headers: {
