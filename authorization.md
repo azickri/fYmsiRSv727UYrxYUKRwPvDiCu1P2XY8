@@ -27,7 +27,6 @@ const baseUrl = "https://api.socialchat.id/partner/channel/webchat"
 axios.post(
   baseUrl,
   {
-    "isActivePreChat": false,
     "name": "Socialchat",
     "websiteUrl": "https://socialchat.id"
   },
