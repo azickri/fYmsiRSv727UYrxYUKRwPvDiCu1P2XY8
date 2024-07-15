@@ -1,7 +1,8 @@
-#### Sample Data Webhook
+#### SAMPLE DATA WEBHOOK CHAT
 
 ```bash
 {
+  "type": "message",
   "conversation": {
     _id: '65b37833afe781e84afa001f',
     senderId: 'ae8fa9efb9922bfad0667a9f',
@@ -81,7 +82,7 @@
     mentionMessage?: {
       senderId: 'ae8fa9efb9922bfad0667a9f',
       messageId: '5e689dfe124e595210cbe40a',
-      type: 'text | Polling | product | location | contact | facebook-ad | image | video | audio | document | sticker',
+      type: 'text | polling | product | location | contact | facebook-ad | image | video | audio | document | sticker',
       text: 'Hello',
       thumbnail: 'https://cdn.image.com/picture...',
       duration: 10,
@@ -98,5 +99,16 @@
       locationThumbnail: 'base64-data',
     },
   }
+}
+```
+
+---
+
+#### SAMPLE DATA WEBHOOK CONTACT
+
+```bash
+{
+  "type": "contact",
+  "contactId": "65b37833afe781e84afa001f"
 }
 ```
